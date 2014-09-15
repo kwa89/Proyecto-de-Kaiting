@@ -4,14 +4,18 @@
 	<meta charset="utf-8">
 	<title>Clases de Guitarra</title>
 </head>
-	<!--En esta pagina principal guardamos los frameset para despues crear en cada uno una pagina diferente de las 4 paginas a crear-->
 	<frameset rows="16%, *" frameborder="no" framespacing="0" >
+	<!--En esta pagina principal guardamos los frameset para despues crear en cada uno una pagina diferente de las 4 paginas a crear-->
+		<frameset cols="16%, *" frameborder="no" framespacing="0" >
 		<!--aqui va el logo-->
-		<frame src="logo.html" target="_self"  name="logo" scrolling="no">
-		</frame>
+			<frame src="logo.html" target="_self"  name="logo" scrolling="no">
+			</frame>
+			<frame src="botones.html" target="_self"  name="botones" scrolling="no">
+			</frame>
+		</frameset>
 		<!--Aqui va los botones y la pagina a presentar-->
-		<frame src="inicio.html" target="_self">
+		<frame src="inicio.html" name="inicio" target="_self">
 		</frame>
-
 	</frameset>
+	
 </html>
